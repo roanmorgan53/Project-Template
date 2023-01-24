@@ -1,0 +1,14 @@
+body {
+    background-color:#181818;
+}
+
+.NavBar {
+    border: #FFFFF ;
+}
+
+.NavBar label {
+    text-align: right;
+    color: #F5D32C;
+    padding-right: 3%;
+    padding-top: 2%;
+}

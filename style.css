@@ -166,6 +166,7 @@
 
     .LoginPrompt input[type="email"]:focus, input[type="password"]:focus{
       border-color: var(--orange);
+      border-width: 0.125vw;
       outline: 0;
     }
     
@@ -209,7 +210,7 @@
       color: var(--orange);
     
       border-style: solid;
-      border-width: 2px;
+      border-width: 0.2vw;
       border-color: var(--orange);
       font-family: "Montserrat", sans-serif;
       font-weight: 800;

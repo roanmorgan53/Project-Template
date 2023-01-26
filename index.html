@@ -17,17 +17,15 @@
     </div>
 
     <div class="LoginPrompt">
-        <button id="LoginExit">X</button>
-
-        <label id = "FieldLabel">Username:</label>
-        <form id="LoginInput"><input type="text" placeholder="Input Username..."></form>
-
-        <label id = "FieldLabel">Password:</label>
-        <form id="LoginInput"><input type="password" placeholder="Input Password..."></form>
-
-        <form id="LoginInput"><input type="submit" value="Login"> </form>
-
-        <p id="PopupText">Disclaimer: don't enter sensitive information, for this is a unsecure webpage, where no safety precautions are taken to preserve the safety of your information.</p>
+        <form>
+            <label for="email" id = "LoginLabel" class="unselectable">Email</label>
+            <input type="email" id="email">
+            <label for="pass" id = "LoginLabel" class="unselectable">Password</label>
+            <input type="password" id = "password">
+            <input type="checkbox" value="lsRememberMe" id="rememberMe"> 
+            <label for="rememberMe" id="rememberText" class="unselectable">Remember me</label>
+            <input type="submit" value="Login" onclick="lsRememberMe()" id = "btnLogin">
+        </form>
     </div>
 
 </body>

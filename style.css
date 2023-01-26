@@ -153,9 +153,20 @@
     .LoginPrompt input[type="email"], input[type="password"] {
         position: absolute;
         margin: 0;
-        padding: 0;
         height: 2vw;
-        width: 20vw;
+        width: 19vw;
+
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+
+    }
+
+    .LoginPrompt input[type="email"]:focus, input[type="password"]:focus{
+      border-color: var(--orange);
+      outline: 0;
     }
     
     .LoginPrompt input[type="checkbox"] {
